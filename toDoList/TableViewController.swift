@@ -8,6 +8,8 @@
 import UIKit
 
 class TableViewController: UITableViewController {
+    
+    var toDos : [ToDo] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
